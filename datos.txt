@@ -1,0 +1,10 @@
+Carrera: Programación y Diseño Web.
+Materia Proyecto final
+Cuatrimestre: 4.
+Año: 2025.
+Turno: Mañana.
+Comisión: A.
+Apellido: Morrone
+Nombre: Tomás.
+Docentes: Carina Carballido y Cecilia Feijo.
+
