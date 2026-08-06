@@ -6,7 +6,7 @@
     <link rel="icon" href="../img/logo-sin.jpg" type="image/jpg">
     <title>PROFENOW</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 @if(session('temporaryPassword'))
