@@ -20,8 +20,6 @@ RUN apt-get install -y nodejs
 
 RUN npm install
 RUN npm run build
-RUN php artisan optimize:clear
-RUN php artisan optimize
 
 EXPOSE 10000
 
