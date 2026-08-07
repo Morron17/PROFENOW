@@ -317,11 +317,6 @@ return view('profesor.inicio', compact(
     'totalMateriales'
 ));
 
-
-    return view('profesor.inicio', compact(
-        'clases',
-        'materiales'
-    ));
 }
 }
 
