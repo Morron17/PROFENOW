@@ -115,9 +115,6 @@
 </div>
 @endauth
 
-<h1 style="background:red;color:white;">
-LAYOUT CARGADO
-</h1>
 <nav class="navbar navbar-expand-lg navbar-light navbar-image border-bottom shadow-sm">
 
     <div class="container">
@@ -271,10 +268,7 @@ window.addEventListener('load', function () {
     visibility: visible !important;
     opacity: 1 !important;
 }
-
-.navbar-nav .nav-link{
-    color:red !important;
-}
+</style>
 </style>
 </body>
 </html>
