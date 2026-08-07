@@ -135,17 +135,13 @@
     @if(auth()->user()->hasRole('Profesor'))
 
         <li class="nav-item">
-            <a href="{{ route('profesor.inicio') }}" class="nav-link">
-                Inicio
-            </a>
+            <a href="{{ route('profesor.inicio') }}" class="nav-link">Inicio</a>
         </li>
 
     @else
 
         <li class="nav-item">
-            <a href="{{ route('home') }}" class="nav-link">
-                Inicio
-            </a>
+            <a href="{{ route('home') }}" class="nav-link">Inicio</a>
         </li>
 
     @endif
@@ -159,9 +155,7 @@
 @auth
     @if(auth()->user()->hasRole('Alumno'))
         <li class="nav-item">
-            <a href="{{ route('reserva') }}" class="nav-link">
-                Profesores reservados
-            </a>
+            <a href="{{ route('reserva') }}" class="nav-link">Profesores reservados</a>
         </li>
     @endif
 @endauth
