@@ -115,7 +115,9 @@
 </div>
 @endauth
 
-
+<h1 style="background:red;color:white;">
+LAYOUT CARGADO
+</h1>
 <nav class="navbar navbar-expand-lg navbar-light navbar-image border-bottom shadow-sm">
 
     <div class="container">
