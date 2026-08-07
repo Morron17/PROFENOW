@@ -128,7 +128,7 @@
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-           <ul class="navbar-nav gap-3" style="display:flex !important;">
+           <ul class="navbar-nav gap-3">
 
 @auth
 
@@ -153,11 +153,7 @@
 @endauth
 
         <li class="nav-item">
-            <a href="{{ route('materiales') }}"
-   class="nav-link"
-   style="color:red !important; font-size:22px;">
-    Materiales
-</a>
+            <a href="{{ route('materiales') }}" class="nav-link">Materiales</a>
         </li>
 
 @auth
