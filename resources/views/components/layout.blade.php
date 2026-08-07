@@ -265,5 +265,16 @@ window.addEventListener('load', function () {
     <p class="mt-3 fw-bold">Cargando...</p>
 </div>
 
+    <style>
+.navbar-collapse {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.navbar-nav .nav-link{
+    color:red !important;
+}
+</style>
 </body>
 </html>
