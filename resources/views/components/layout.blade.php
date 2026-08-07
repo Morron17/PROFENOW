@@ -131,7 +131,7 @@ LAYOUT CARGADO
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-           <ul class="navbar-nav gap-3">
+           <ul class="navbar-nav gap-3" style="display:flex !important;">
 
 @auth
 
@@ -156,7 +156,11 @@ LAYOUT CARGADO
 @endauth
 
         <li class="nav-item">
-            <a href="{{ route('materiales') }}" class="nav-link">Materiales</a>
+            <a href="{{ route('materiales') }}"
+   class="nav-link"
+   style="color:red !important; font-size:22px;">
+    Materiales
+</a>
         </li>
 
 @auth
